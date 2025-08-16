@@ -1,0 +1,39 @@
+  body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url('https://picsum.photos/1600/900') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+/* Container styling */
+.container {
+  background: rgba(0, 0, 0, 0.5); /* transparent overlay */
+  padding: 50px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-top: 15%;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #ff9800;
+  color: white;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #e68900;
+}
