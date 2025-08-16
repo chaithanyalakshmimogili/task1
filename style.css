@@ -2,16 +2,16 @@
   margin: 0;
   padding: 0;
   height: 100vh;
-  background: url('https://picsum.photos/1600/900') no-repeat center center fixed;
+  background: url("sample.jpg") no-repeat center center fixed;
   background-size: cover;
   font-family: Arial, sans-serif;
   color: white;
   text-align: center;
 }
 
-/* Container styling */
+
 .container {
-  background: rgba(0, 0, 0, 0.5); /* transparent overlay */
+  background: rgba(0, 0, 0, 0.5); 
   padding: 50px;
   border-radius: 15px;
   display: inline-block;
